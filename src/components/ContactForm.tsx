@@ -19,6 +19,8 @@ interface ContactData {
   website?: string;
   location?: string;
   raw_text?: string;
+  source?: 'camera' | 'upload';
+  confidence?: number;
 }
 
 interface ContactFormProps {
